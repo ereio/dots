@@ -1,0 +1,6 @@
+style "font"
+{
+font_name = "Droid Naskh Shift Alt 8"
+}
+widget_class "*" style "user-font"
+gtk-font-name = "Droid Naskh Shift Alt 8"
