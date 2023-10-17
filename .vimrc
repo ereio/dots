@@ -19,6 +19,43 @@
 " X........Recursively close all children of the current node.........|NERDTree-X|
 " e........Edit the current dir.......................................|NERDTree-e|
 
+
+"" GUI Utility
+" mkdir -p ~/.vim/pack/plugins/start
+
+" NerdTree - File Navigator
+" git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
+" vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+
+" CTRL-P - File Fuzzy Search
+" git clone --depth=1 https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/pack/plugins/start/ctrlp
+
+" Vim Airline - Status Bar
+" git clone https://github.com/vim-airline/vim-airline ~/.vim/pack/dist/start/vim-airline
+" :helptags ~/.vim/pack/dist/start/vim-airline/doc
+
+" Vim Lightline - Status Bar
+" git clone https://github.com/itchyny/lightline.vim ~/.vim/pack/plugins/start/lightline
+
+" Supertab - Auto Complete
+" git clone --depth=1 https://github.com/ervandew/supertab.git ~/.vim/pack/plugins/start/supertab
+
+" Vim Devicons - Icons
+" git clone https://github.com/ryanoasis/vim-devicons ~/.vim/pack/plugins/start/vim-devicons
+" https://github.com/ryanoasis/nerd-fonts/releases " download font
+
+" Vim NerdTree Syntax Highlight
+" git clone https://github.com/tiagofumo/vim-nerdtree-syntax-highlight ~/.vim/pack/plugins/start/vim-nerdtree-syntax-highlight 
+
+" TODO: Ale - Linting
+" https://github.com/dense-analysis/ale
+
+" TODO: CTags - Fuzzy Search File Content
+" https://github.com/universal-ctags/ctags
+
+" TODO: Dart Vim Plugin
+" git clone https://github.com/dart-lang/dart-vim-plugin  ~/.vim/pack/plugins/start/dart-vim-plugin  
+
 " Plugin Settings
 let g:webdevicons_enable = 1
 let g:webdevicons_enable_nerdtree = 1
@@ -26,7 +63,7 @@ let g:webdevicons_enable_ctrlp = 1
 let g:webdevicons_enable_airline_tabline = 1
 let g:webdevicons_enable_airline_statusline = 1
 let g:DevIconsEnableFoldersOpenClose = 1
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 0
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeMinimalUI = 0
 " let g:syntastic_dart_checkers = ['dartanalyzer']
